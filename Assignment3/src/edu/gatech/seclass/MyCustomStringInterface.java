@@ -60,21 +60,21 @@ public interface MyCustomStringInterface {
     String addDigits(int n, boolean positive);
 
     /**
-     * Reverses the position of all letters (i.e. a-z and A-Z) in the current string, between startPosition and endPosition (both inclusive).
-     * The first letter will become the last, and the last will become the first.  All other characters remain unchanged.
-     * *Note: The first character in the string is considered to be in Position 1.
-     * 
-     * Examples:
-     * - String "Rat" would be converted to "taR"
-     * - String "3 Cats, 2 Dogs." would be converted to "3 sgoD, 2 staC."
-     *
-     * @param startPosition Position of the first character to consider
-     * @param endPosition   Position of the last character to consider
-     * @throws NullPointerException        If the current string is null
-     * @throws MyIndexOutOfBoundsException If endPosition is > the length of the string or startPosition <= 0
-     *                                     (and the current string is not null)
-     * @throws IllegalArgumentException    If startPosition > endPosition
-     *                                     (and the current string is not null, and neither position is out of bounds)
-     */
-    void flipLetttersInSubstring(int startPosition, int endPosition);
+ * Reverses the position of all letters (i.e. a-z and A-Z) in the current string, between startPosition and endPosition (both inclusive).
+ * The first letter will become the last, and the last will become the first.  All other characters remain unchanged.
+ * *Note: The first character in the string is considered to be in Position 1.
+ *
+ * Examples:
+ * - String "Rat" would be converted to "taR"
+ * - String "3 Cats, 2 Dogs." would be converted to "3 sgoD, 2 staC."
+ *
+ * @param startPosition Position of the first character to consider
+ * @param endPosition   Position of the last character to consider
+ * @throws NullPointerException        If the current string is null
+ * @throws MyIndexOutOfBoundsException If endPosition is > the length of the string or startPosition <= 0
+ *                                     (and the current string is not null)
+ * @throws IllegalArgumentException    If startPosition > endPosition
+ *                                     (and the current string is not null, and neither position is out of bounds)
+ */
+void flipLetttersInSubstring(int startPosition, int endPosition);
 }
