@@ -8,1131 +8,721 @@ Test Case 2  		<single>
 
 
 Test Case 3  		<single>
-   Special Case (No OPT flag) :  Present
+   Valid integer input :  0
 
 
 Test Case 4  		<error>
-   Valid Integer Input :  <0
+   Valid integer input :  <0
 
 
-Test Case 5  		<error>
-   Letter encoding values :  <0
+Test Case 5  		<single>
+   Valid integer input :  maxint = 25
 
 
-Test Case 6  		<error>
-   Letter encoding values :  0
+Test Case 6  		<error>  (follows [if])
+   Presence of -r|-l Integer Input :  Not Present
 
 
 Test Case 7  		<error>
-   -n Final Operation :  No
+   Valid integer input :  0
 
 
-Test Case 8  		<single>
-   Presence of -r flag :  Not Present
+Test Case 8  		<error>
+   Valid integer input :  <0
 
 
-Test Case 9  		<error>
-   Presence of -r Integer :  Not Present
+Test Case 9  		<single>
+   Valid integer input :  maxint
 
 
-Test Case 10 		<error>
-   Value of Integer :  0
+Test Case 10 		<error>  (follows [if])
+   Presence of String Input :  Not Present
 
 
 Test Case 11 		<error>
-   Value of Integer :  <0
+   Length :  0
 
 
 Test Case 12 		<single>
-   Value of Integer :  maxint
+   Length :  1
 
 
-Test Case 13 		<error>
-   Rotation Direction :  Left
+Test Case 13 		<single>
+   Length :  maxint = 26
 
 
-Test Case 14 		<error>  (follows [if])
-   -r Final Operation :  Yes
-
-
-Test Case 15 		<single>
-   Presence of -r flag :  Not Present
-
-
-Test Case 16 		<error>
-   Presence of -l Integer :  Not Present
-
-
-Test Case 17 		<error>
-   Value of Integer :  0
-
-
-Test Case 18 		<error>
-   Value of Integer :  <0
-
-
-Test Case 19 		<single>
-   Value of Integer :  maxint
-
-
-Test Case 20 		<error>
-   Rotation Direction :  Right
-
-
-Test Case 21 		<error>  (follows [if])
-   -l Final Operation :  Yes
-
-
-Test Case 22 		<single>
-   Presence of -c flag :  Not Present
-
-
-Test Case 23 		<error>
-   Presence of String :  Not Present
-
-
-Test Case 24 		<error>
+Test Case 14 		<error>
    Content :  spaces
 
 
-Test Case 25 		<error>
-   Content :  alphanumeric characters
-
-
-Test Case 26 		<error>
+Test Case 15 		<error>
    Content :  special characters
 
 
-Test Case 27 		<error>  (follows [if])
-   -c Final Operation :  Yes
+Test Case 16 		<error>
+   Content :  alphanumeric characters
 
 
-Test Case 28 		<error>
+Test Case 17 		<error>
+   Content :  duplicate characters
+
+
+Test Case 18 		<single>
+   Content :  capital characters
+
+
+Test Case 19 		<error>  (follows [if])
+   Presence of Special Case :  Not Present
+
+
+Test Case 20 		<error>
    Presence of file corresponding to the name :  Not Present
 
 
-Test Case 29 		(Key = 2.2.1.1.2.1.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 21 		(Key = 2.2.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 30 		(Key = 2.2.1.1.2.1.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 22 		(Key = 2.2.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 31 		(Key = 2.2.1.1.2.1.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 23 		(Key = 2.2.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 32 		(Key = 2.2.1.1.2.2.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 24 		(Key = 2.2.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 33 		(Key = 2.2.1.1.2.2.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 25 		(Key = 2.2.1.1.2.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 34 		(Key = 2.2.1.1.2.2.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 26 		(Key = 2.2.1.1.2.3.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 35 		(Key = 2.2.1.1.2.2.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 27 		(Key = 2.2.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 36 		(Key = 2.2.1.1.2.4.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 28 		(Key = 2.2.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 37 		(Key = 2.2.1.1.2.4.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 29 		(Key = 2.2.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 38 		(Key = 2.2.1.1.2.4.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 30 		(Key = 2.2.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 39 		(Key = 2.2.1.1.2.4.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 31 		(Key = 2.2.1.2.5.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 40 		(Key = 2.2.1.2.2.0.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 32 		(Key = 2.2.1.2.5.3.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 41 		(Key = 2.2.1.2.2.0.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 33 		(Key = 2.2.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 42 		(Key = 2.2.1.2.2.0.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 34 		(Key = 2.2.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 43 		(Key = 2.2.1.2.2.0.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 35 		(Key = 2.2.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 44 		(Key = 2.2.2.2.2.0.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 36 		(Key = 2.2.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 45 		(Key = 2.2.2.2.2.0.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 37 		(Key = 2.2.2.2.0.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 46 		(Key = 2.2.2.2.2.0.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 38 		(Key = 2.2.2.2.0.3.0.0.2.0.0.0.1.1.1.)
    Size                                       :  Not empty
    Number of words                            :  One
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  Present
+   Integer Value                              :  13
    Presence of file corresponding to the name :  Present
 
 
-Test Case 47 		(Key = 2.2.2.2.2.0.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
-   Size                                       :  Not empty
-   Number of words                            :  One
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
-   Presence of file corresponding to the name :  Present
-
-
-Test Case 48 		(Key = 2.3.1.1.2.1.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 39 		(Key = 2.3.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 49 		(Key = 2.3.1.1.2.1.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 40 		(Key = 2.3.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 50 		(Key = 2.3.1.1.2.1.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 41 		(Key = 2.3.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  0
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 51 		(Key = 2.3.1.1.2.2.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 42 		(Key = 2.3.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 52 		(Key = 2.3.1.1.2.2.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 43 		(Key = 2.3.1.1.2.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 53 		(Key = 2.3.1.1.2.2.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 44 		(Key = 2.3.1.1.2.3.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Present
+   Valid integer input                        :  >0
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 54 		(Key = 2.3.1.1.2.2.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 45 		(Key = 2.3.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  >0
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 55 		(Key = 2.3.1.1.2.4.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 46 		(Key = 2.3.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 56 		(Key = 2.3.1.1.2.4.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 47 		(Key = 2.3.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 57 		(Key = 2.3.1.1.2.4.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 48 		(Key = 2.3.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 58 		(Key = 2.3.1.1.2.4.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 49 		(Key = 2.3.1.2.5.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  maxint = 25
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 59 		(Key = 2.3.1.2.2.0.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 50 		(Key = 2.3.1.2.5.3.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  13
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 60 		(Key = 2.3.1.2.2.0.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 51 		(Key = 2.3.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 61 		(Key = 2.3.1.2.2.0.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 52 		(Key = 2.3.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -r
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 62 		(Key = 2.3.1.2.2.0.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 53 		(Key = 2.3.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 63 		(Key = 2.3.2.2.2.0.3.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 54 		(Key = 2.3.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  -l
+   Presence of -r|-l Integer Input            :  Present
+   Valid integer input                        :  >0
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 64 		(Key = 2.3.2.2.2.0.4.1.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 55 		(Key = 2.3.2.2.0.3.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >26
-   Need for Wrapping                          :  Yes
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Present
+   Presence of String Input                   :  Present
+   Length                                     :  Btw 1 & 26
+   Content                                    :  unique characters
+   Presence of Special Case                   :  <n/a>
+   Integer Value                              :  <n/a>
    Presence of file corresponding to the name :  Present
 
 
-Test Case 65 		(Key = 2.3.2.2.2.0.5.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
+Test Case 56 		(Key = 2.3.2.2.0.3.0.0.2.0.0.0.1.1.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  <26
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
-   Presence of file corresponding to the name :  Present
-
-
-Test Case 66 		(Key = 2.3.2.2.2.0.6.2.1.1.1.2.1.2.1.1.2.2.2.1.1.1.2.1.)
-   Size                                       :  Not empty
-   Number of words                            :  Many
-   Presence of -n tag                         :  Not present
-   Presence of -n integer                     :  Not present
-   Special Case (No OPT flag)                 :  Not Present
-   Valid Integer Input                        :  <n/a>
-   Letter encoding values                     :  >1
-   Need for Wrapping                          :  No
-   -n Final Operation                         :  Yes
-   Presence of -r flag                        :  Present
-   Presence of -r Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Right
-   -r Final Operation                         :  No
-   Presence of -r flag                        :  Present
-   Presence of -l Integer                     :  Present
-   Value of Integer                           :  >0
-   Rotation Direction                         :  Left
-   -l Final Operation                         :  No
-   Presence of -c flag                        :  Present
-   Presence of String                         :  Present
-   Content                                    :  characters
-   -c Final Operation                         :  No
+   Presence of -n OPT                         :  Not Present
+   Presence of Integer Input                  :  Not Present
+   Valid integer input                        :  <n/a>
+   Presence of OPT                            :  Not Present
+   Presence of -r|-l Integer Input            :  <n/a>
+   Valid integer input                        :  <n/a>
+   Presence of -c OPT                         :  Not Present
+   Presence of String Input                   :  <n/a>
+   Length                                     :  <n/a>
+   Content                                    :  <n/a>
+   Presence of Special Case                   :  Present
+   Integer Value                              :  13
    Presence of file corresponding to the name :  Present
 
