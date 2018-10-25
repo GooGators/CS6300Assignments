@@ -18,7 +18,7 @@ Special Case (No OPT flag):
 	Present.	[single][property noOptFlag]
 	Not Present.	
 Valid Integer Input:
-	0.	[if presentint]
+	0.	[if presentint][property zeroint]
 	>0.	[if presentint]
 	<0.	[error]
 	maxint = 25.	[if presentint]
@@ -27,7 +27,7 @@ Letter encoding values:
 	<0.	[error]
 	0.	[error]
 	1.
-	>26.	[property wrapencode]
+	>26.	[if !zeroint][property wrapencode]
 	<26.
 	>1.
 Need for Wrapping:
