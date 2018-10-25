@@ -32,7 +32,7 @@ Letter encoding values:
 	>1.
 Need for Wrapping:
 	Yes.	[if wrapencode]
-	No.
+	No.	[if !wrapencode]
 -n Final Operation:
 	Yes.	[property nfinaloperation]
 	No.	[error]
