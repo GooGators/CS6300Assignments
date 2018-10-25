@@ -2,101 +2,97 @@
 Size:
 	Empty.	[single][property emptyfile]
 	Not empty.
-Number of words in file:
+Number of words:
 	None.	[single][if !emptyfile]
 	One.	[if !emptyfile]
 	Many.	[if !emptyfile]
 
 # -n
-Presence of -n flag: 
-	Not present.	[property noflag]
-	Present.	[single]
-Presence of integer:
+Presence of -n tag:
+	Present.	[property ntagpresent]
+	Not present.	
+Presence of -n integer:
+	Present.	[if ntagpresent][property presentint]
 	Not present.
-	Present.	[single][property presentint]
-Valid Integer input:
+Special Case (No OPT flag):
+	Present.	[single][property noOptFlag]
+	Not Present.	
+Valid Integer Input:
 	0.	[if presentint]
 	>0.	[if presentint]
 	<0.	[error]
-	maxint = 25. [if presentint]
-	13.	[if noflag]
-Letter encoding value:
+	maxint = 25.	[if presentint]
+	13.	[if noOptFlag]
+Letter encoding values
 	<0.	[error]
 	0.	[error]
 	1.
 	>26.	[property wrapencode]
-	<26.	
+	<26.
 	>1.
 	maxint = 26.
-Need for number wrapping (1 - 26):
+Need for Wrapping:
 	Yes.	[if wrapencode]
 	No.
-Final Operation:
+-n Final Operation:
 	Yes.	[property nfinaloperation]
 	No.	[error]
 
 # -r
 Presence of -r flag:
-	Not present.
-	Present.	[single]
-Presence of integer:
-	Not present.	[error]
-	Present.
+	Present.	[property rflagpresent]
+	Not Present.	[single]
+Presence of -r Integer:
+	Present.	[if rflagpresent][property rintpresent]
+	Not Present.	[error]
 Value of Integer:
 	0.	[error]
-	>0.
+	>0.	[if rflagpresent && rintpresent]
 	<0.	[error]
-	maxint.
-Right Rotation Direction:
-	Yes.	[property rightrotation]
-	No.	[error]
-Final Operation:
+	maxint.	[single][if rflagpresent && rintpresent]
+Rotation Direction:
+	Right.	
+	Left.	[error]
+-r Final Operation:
 	Yes.	[if nfinaloperation][error]
 	No.
 
 # -l
-Presence of -l flag:
-	Not present.
-	Present.	[single]
-Presence of integer:
-	Not present.	[error]
-	Present.
+Presence of -r flag:
+	Present.	[property lflagpresent]
+	Not Present.	[single]
+Presence of -l Integer:
+	Present.	[if lflagpresent][property lintpresent]
+	Not Present.	[error]
 Value of Integer:
 	0.	[error]
-	>0.
+	>0.	[if lflagpresent && lintpresent]
 	<0.	[error]
-	maxint.	[single]
-Right Rotation Direction:
-	Yes.	[if rightrotation][error]
-	No.	
-Final Operation:
+	maxint.	[single][if lflagpresent && lintpresent]
+Rotation Direction:
+	Right.	[error]
+	Left.	
+-l Final Operation:
 	Yes.	[if nfinaloperation][error]
 	No.
 
-# -c
+# -c 
 Presence of -c flag:
-	Not present.
-	Present.	[single]
-Presence of String:
-	Not present.	[error]
-	Present.	[property stringpresent]
-Length:
-	0.	[property zerovalue]
-	1.
-	max size.	[single]
+	Present.	[property cflagpresent]
+	Not Present.	[single]
+Presence of String:	
+	Present.	[if cflagpresent][property cstringpresent]
+	Not Present.	[error]
 Content:
+	characters.	[if cstringpresent]
+	spaces.	[error]
 	alphanumeric characters.	[error]
 	special characters.	[error]
-	spaces.	[error]
-	characters	[if !zerovalue && stringpresent]
-Final Operation:
+-c Final Operation:
 	Yes.	[if nfinaloperation][error]
 	No.
 
-# Filename:
-Presence of a file corresponding to the name:
-	Not present.	[error]
+#Filename:
+Presence of file corresponding to the name:
 	Present.
-
-	
-	
+	Not Present.	[error]
