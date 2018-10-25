@@ -1,0 +1,1412 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<single>
+   Number of words in file :  None
+
+
+Test Case 3  		<single>
+   Presence of -n flag :  Present
+
+
+Test Case 4  		<single>
+   Presence of integer :  Present
+
+
+Test Case 5  		<error>
+   Valid Integer input :  <0
+
+
+Test Case 6  		<error>
+   Letter encoding value :  <0
+
+
+Test Case 7  		<error>
+   Letter encoding value :  0
+
+
+Test Case 8  		<error>
+   Final Operation :  No
+
+
+Test Case 9  		<single>
+   Presence of -r flag :  Present
+
+
+Test Case 10 		<error>
+   Presence of integer :  Not present
+
+
+Test Case 11 		<error>
+   Value of Integer :  0
+
+
+Test Case 12 		<error>
+   Value of Integer :  <0
+
+
+Test Case 13 		<error>
+   Right Rotation Direction :  No
+
+
+Test Case 14 		<error>  (follows [if])
+   Final Operation :  Yes
+
+
+Test Case 15 		<single>
+   Presence of -l flag :  Present
+
+
+Test Case 16 		<error>
+   Presence of integer :  Not present
+
+
+Test Case 17 		<error>
+   Value of Integer :  0
+
+
+Test Case 18 		<error>
+   Value of Integer :  <0
+
+
+Test Case 19 		<single>
+   Value of Integer :  maxint
+
+
+Test Case 20 		<error>  (follows [if])
+   Right Rotation Direction :  Yes
+
+
+Test Case 21 		<error>  (follows [if])
+   Final Operation :  Yes
+
+
+Test Case 22 		<single>
+   Presence of -c flag :  Present
+
+
+Test Case 23 		<error>
+   Presence of String :  Not present
+
+
+Test Case 24 		<single>
+   Length :  max size
+
+
+Test Case 25 		<error>
+   Content :  alphanumeric characters
+
+
+Test Case 26 		<error>
+   Content :  special characters
+
+
+Test Case 27 		<error>
+   Content :  spaces
+
+
+Test Case 28 		<error>  (follows [if])
+   Final Operation :  Yes
+
+
+Test Case 29 		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 30 		(Key = 2.2.1.1.5.3.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 31 		(Key = 2.2.1.1.5.3.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 32 		(Key = 2.2.1.1.5.3.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 33 		(Key = 2.2.1.1.5.3.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 34 		(Key = 2.2.1.1.5.4.1.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 35 		(Key = 2.2.1.1.5.4.1.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 36 		(Key = 2.2.1.1.5.4.1.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 37 		(Key = 2.2.1.1.5.4.1.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 38 		(Key = 2.2.1.1.5.4.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 39 		(Key = 2.2.1.1.5.4.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 40 		(Key = 2.2.1.1.5.4.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 41 		(Key = 2.2.1.1.5.4.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 42 		(Key = 2.2.1.1.5.5.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 43 		(Key = 2.2.1.1.5.5.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 44 		(Key = 2.2.1.1.5.5.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 45 		(Key = 2.2.1.1.5.5.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 46 		(Key = 2.2.1.1.5.6.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 47 		(Key = 2.2.1.1.5.6.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 48 		(Key = 2.2.1.1.5.6.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 49 		(Key = 2.2.1.1.5.6.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 50 		(Key = 2.2.1.1.5.7.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 51 		(Key = 2.2.1.1.5.7.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 52 		(Key = 2.2.1.1.5.7.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 53 		(Key = 2.2.1.1.5.7.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  One
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 54 		(Key = 2.3.1.1.5.3.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 55 		(Key = 2.3.1.1.5.3.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 56 		(Key = 2.3.1.1.5.3.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 57 		(Key = 2.3.1.1.5.3.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 58 		(Key = 2.3.1.1.5.4.1.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 59 		(Key = 2.3.1.1.5.4.1.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 60 		(Key = 2.3.1.1.5.4.1.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 61 		(Key = 2.3.1.1.5.4.1.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  Yes
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 62 		(Key = 2.3.1.1.5.4.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 63 		(Key = 2.3.1.1.5.4.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 64 		(Key = 2.3.1.1.5.4.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 65 		(Key = 2.3.1.1.5.4.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 66 		(Key = 2.3.1.1.5.5.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 67 		(Key = 2.3.1.1.5.5.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 68 		(Key = 2.3.1.1.5.5.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 69 		(Key = 2.3.1.1.5.5.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  <26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 70 		(Key = 2.3.1.1.5.6.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 71 		(Key = 2.3.1.1.5.6.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 72 		(Key = 2.3.1.1.5.6.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 73 		(Key = 2.3.1.1.5.6.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  >1
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 74 		(Key = 2.3.1.1.5.7.2.1.1.2.2.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 75 		(Key = 2.3.1.1.5.7.2.1.1.2.2.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 76 		(Key = 2.3.1.1.5.7.2.1.1.2.4.1.2.1.2.2.2.2.1.2.1.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  0
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 77 		(Key = 2.3.1.1.5.7.2.1.1.2.4.1.2.1.2.2.2.2.1.2.2.0.2.2.)
+   Size                                         :  Not empty
+   Number of words in file                      :  Many
+   Presence of -n flag                          :  Not present
+   Presence of integer                          :  Not present
+   Valid Integer input                          :  13
+   Letter encoding value                        :  maxint = 26
+   Need for number wrapping (1 - 26)            :  No
+   Final Operation                              :  Yes
+   Presence of -r flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  maxint
+   Right Rotation Direction                     :  Yes
+   Final Operation                              :  No
+   Presence of -l flag                          :  Not present
+   Presence of integer                          :  Present
+   Value of Integer                             :  >0
+   Right Rotation Direction                     :  No
+   Final Operation                              :  No
+   Presence of -c flag                          :  Not present
+   Presence of String                           :  Present
+   Length                                       :  1
+   Content                                      :  <n/a>
+   Final Operation                              :  No
+   Presence of a file corresponding to the name :  Present
+
