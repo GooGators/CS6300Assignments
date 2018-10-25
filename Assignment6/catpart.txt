@@ -1,0 +1,102 @@
+# File
+Size:
+	Empty.	[single][property emptyfile]
+	Not empty.
+Number of words in file:
+	None.	[single][if !emptyfile]
+	One.	[if !emptyfile]
+	Many.	[if !emptyfile]
+
+# -n
+Presence of -n flag: 
+	Not present.	[property noflag]
+	Present.	[single]
+Presence of integer:
+	Not present.
+	Present.	[single][property presentint]
+Valid Integer input:
+	0.	[if presentint]
+	>0.	[if presentint]
+	<0.	[error]
+	maxint = 25. [if presentint]
+	13.	[if noflag]
+Letter encoding value:
+	<0.	[error]
+	0.	[error]
+	1.
+	>26.	[property wrapencode]
+	<26.	
+	>1.
+	maxint = 26.
+Need for number wrapping (1 - 26):
+	Yes.	[if wrapencode]
+	No.
+Final Operation:
+	Yes.	[property nfinaloperation]
+	No.	[error]
+
+# -r
+Presence of -r flag:
+	Not present.
+	Present.	[single]
+Presence of integer:
+	Not present.	[error]
+	Present.
+Value of Integer:
+	0.	[error]
+	>0.
+	<0.	[error]
+	maxint.
+Right Rotation Direction:
+	Yes.	[property rightrotation]
+	No.	[error]
+Final Operation:
+	Yes.	[if nfinaloperation][error]
+	No.
+
+# -l
+Presence of -l flag:
+	Not present.
+	Present.	[single]
+Presence of integer:
+	Not present.	[error]
+	Present.
+Value of Integer:
+	0.	[error]
+	>0.
+	<0.	[error]
+	maxint.	[single]
+Right Rotation Direction:
+	Yes.	[if rightrotation][error]
+	No.	
+Final Operation:
+	Yes.	[if nfinaloperation][error]
+	No.
+
+# -c
+Presence of -c flag:
+	Not present.
+	Present.	[single]
+Presence of String:
+	Not present.	[error]
+	Present.	[property stringpresent]
+Length:
+	0.	[property zerovalue]
+	1.
+	max size.	[single]
+Content:
+	alphanumeric characters.	[error]
+	special characters.	[error]
+	spaces.	[error]
+	characters	[if !zerovalue && stringpresent]
+Final Operation:
+	Yes.	[if nfinaloperation][error]
+	No.
+
+# Filename:
+Presence of a file corresponding to the name:
+	Not present.	[error]
+	Present.
+
+	
+	
