@@ -19,67 +19,71 @@ Test Case 5  		<single>
    Valid integer input :  maxint = 25
 
 
-Test Case 6  		<error>  (follows [if])
+Test Case 6  		<error>
+   Presence of OPT :  -r && -l
+
+
+Test Case 7  		<error>  (follows [if])
    Presence of -r|-l Integer Input :  Not Present
 
 
-Test Case 7  		<error>
+Test Case 8  		<error>
    Valid integer input :  0
 
 
-Test Case 8  		<error>
+Test Case 9  		<error>
    Valid integer input :  <0
 
 
-Test Case 9  		<single>
+Test Case 10 		<single>
    Valid integer input :  maxint
 
 
-Test Case 10 		<error>  (follows [if])
+Test Case 11 		<error>  (follows [if])
    Presence of String Input :  Not Present
 
 
-Test Case 11 		<error>
+Test Case 12 		<error>
    Length :  0
 
 
-Test Case 12 		<single>
+Test Case 13 		<single>
    Length :  1
 
 
-Test Case 13 		<single>
+Test Case 14 		<single>
    Length :  maxint = 26
 
 
-Test Case 14 		<error>
+Test Case 15 		<error>
    Content :  spaces
 
 
-Test Case 15 		<error>
+Test Case 16 		<error>
    Content :  special characters
 
 
-Test Case 16 		<error>
+Test Case 17 		<error>
    Content :  alphanumeric characters
 
 
-Test Case 17 		<error>
+Test Case 18 		<error>
    Content :  duplicate characters
 
 
-Test Case 18 		<single>
+Test Case 19 		<single>
    Content :  capital characters
 
 
-Test Case 19 		<error>  (follows [if])
+Test Case 20 		<error>  (follows [if])
    Presence of Special Case :  Not Present
 
 
-Test Case 20 		<error>
+Test Case 21 		<error>
    Presence of file corresponding to the name :  Not Present
 
 
-Test Case 21 		(Key = 2.2.1.1.2.1.1.2.1.1.3.2.0.0.1.)
+Test Case 22 		(Key = 2.2.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -97,7 +101,7 @@ Test Case 21 		(Key = 2.2.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 22 		(Key = 2.2.1.1.2.1.1.2.2.0.0.0.0.0.1.)
+Test Case 23 		(Key = 2.2.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -115,7 +119,7 @@ Test Case 22 		(Key = 2.2.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 23 		(Key = 2.2.1.1.2.2.1.2.1.1.3.2.0.0.1.)
+Test Case 24 		(Key = 2.2.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -133,7 +137,7 @@ Test Case 23 		(Key = 2.2.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 24 		(Key = 2.2.1.1.2.2.1.2.2.0.0.0.0.0.1.)
+Test Case 25 		(Key = 2.2.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -151,7 +155,7 @@ Test Case 24 		(Key = 2.2.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 25 		(Key = 2.2.1.1.2.3.0.0.1.1.3.2.0.0.1.)
+Test Case 26 		(Key = 2.2.1.1.2.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -169,7 +173,7 @@ Test Case 25 		(Key = 2.2.1.1.2.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 26 		(Key = 2.2.1.1.2.3.0.0.2.0.0.0.0.0.1.)
+Test Case 27 		(Key = 2.2.1.1.2.4.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -187,7 +191,7 @@ Test Case 26 		(Key = 2.2.1.1.2.3.0.0.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 27 		(Key = 2.2.1.2.5.1.1.2.1.1.3.2.0.0.1.)
+Test Case 28 		(Key = 2.2.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -205,7 +209,7 @@ Test Case 27 		(Key = 2.2.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 28 		(Key = 2.2.1.2.5.1.1.2.2.0.0.0.0.0.1.)
+Test Case 29 		(Key = 2.2.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -223,7 +227,7 @@ Test Case 28 		(Key = 2.2.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 29 		(Key = 2.2.1.2.5.2.1.2.1.1.3.2.0.0.1.)
+Test Case 30 		(Key = 2.2.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -241,7 +245,7 @@ Test Case 29 		(Key = 2.2.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 30 		(Key = 2.2.1.2.5.2.1.2.2.0.0.0.0.0.1.)
+Test Case 31 		(Key = 2.2.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -259,7 +263,7 @@ Test Case 30 		(Key = 2.2.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 31 		(Key = 2.2.1.2.5.3.0.0.1.1.3.2.0.0.1.)
+Test Case 32 		(Key = 2.2.1.2.5.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -277,7 +281,7 @@ Test Case 31 		(Key = 2.2.1.2.5.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 32 		(Key = 2.2.1.2.5.3.0.0.2.0.0.0.0.0.1.)
+Test Case 33 		(Key = 2.2.1.2.5.4.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Present
@@ -295,7 +299,7 @@ Test Case 32 		(Key = 2.2.1.2.5.3.0.0.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 33 		(Key = 2.2.2.2.0.1.1.2.1.1.3.2.0.0.1.)
+Test Case 34 		(Key = 2.2.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -313,7 +317,7 @@ Test Case 33 		(Key = 2.2.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 34 		(Key = 2.2.2.2.0.1.1.2.2.0.0.0.0.0.1.)
+Test Case 35 		(Key = 2.2.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -331,7 +335,7 @@ Test Case 34 		(Key = 2.2.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 35 		(Key = 2.2.2.2.0.2.1.2.1.1.3.2.0.0.1.)
+Test Case 36 		(Key = 2.2.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -349,7 +353,7 @@ Test Case 35 		(Key = 2.2.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 36 		(Key = 2.2.2.2.0.2.1.2.2.0.0.0.0.0.1.)
+Test Case 37 		(Key = 2.2.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -367,7 +371,7 @@ Test Case 36 		(Key = 2.2.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 37 		(Key = 2.2.2.2.0.3.0.0.1.1.3.2.0.0.1.)
+Test Case 38 		(Key = 2.2.2.2.0.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -385,7 +389,7 @@ Test Case 37 		(Key = 2.2.2.2.0.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 38 		(Key = 2.2.2.2.0.3.0.0.2.0.0.0.1.1.1.)
+Test Case 39 		(Key = 2.2.2.2.0.4.0.0.2.0.0.0.1.1.1.)
    Size                                       :  Not empty
    Number of words                            :  One
    Presence of -n OPT                         :  Not Present
@@ -403,7 +407,7 @@ Test Case 38 		(Key = 2.2.2.2.0.3.0.0.2.0.0.0.1.1.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 39 		(Key = 2.3.1.1.2.1.1.2.1.1.3.2.0.0.1.)
+Test Case 40 		(Key = 2.3.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -421,7 +425,7 @@ Test Case 39 		(Key = 2.3.1.1.2.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 40 		(Key = 2.3.1.1.2.1.1.2.2.0.0.0.0.0.1.)
+Test Case 41 		(Key = 2.3.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -439,7 +443,7 @@ Test Case 40 		(Key = 2.3.1.1.2.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 41 		(Key = 2.3.1.1.2.2.1.2.1.1.3.2.0.0.1.)
+Test Case 42 		(Key = 2.3.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -457,7 +461,7 @@ Test Case 41 		(Key = 2.3.1.1.2.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 42 		(Key = 2.3.1.1.2.2.1.2.2.0.0.0.0.0.1.)
+Test Case 43 		(Key = 2.3.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -475,7 +479,7 @@ Test Case 42 		(Key = 2.3.1.1.2.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 43 		(Key = 2.3.1.1.2.3.0.0.1.1.3.2.0.0.1.)
+Test Case 44 		(Key = 2.3.1.1.2.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -493,7 +497,7 @@ Test Case 43 		(Key = 2.3.1.1.2.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 44 		(Key = 2.3.1.1.2.3.0.0.2.0.0.0.0.0.1.)
+Test Case 45 		(Key = 2.3.1.1.2.4.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -511,7 +515,7 @@ Test Case 44 		(Key = 2.3.1.1.2.3.0.0.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 45 		(Key = 2.3.1.2.5.1.1.2.1.1.3.2.0.0.1.)
+Test Case 46 		(Key = 2.3.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -529,7 +533,7 @@ Test Case 45 		(Key = 2.3.1.2.5.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 46 		(Key = 2.3.1.2.5.1.1.2.2.0.0.0.0.0.1.)
+Test Case 47 		(Key = 2.3.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -547,7 +551,7 @@ Test Case 46 		(Key = 2.3.1.2.5.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 47 		(Key = 2.3.1.2.5.2.1.2.1.1.3.2.0.0.1.)
+Test Case 48 		(Key = 2.3.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -565,7 +569,7 @@ Test Case 47 		(Key = 2.3.1.2.5.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 48 		(Key = 2.3.1.2.5.2.1.2.2.0.0.0.0.0.1.)
+Test Case 49 		(Key = 2.3.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -583,7 +587,7 @@ Test Case 48 		(Key = 2.3.1.2.5.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 49 		(Key = 2.3.1.2.5.3.0.0.1.1.3.2.0.0.1.)
+Test Case 50 		(Key = 2.3.1.2.5.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -601,7 +605,7 @@ Test Case 49 		(Key = 2.3.1.2.5.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 50 		(Key = 2.3.1.2.5.3.0.0.2.0.0.0.0.0.1.)
+Test Case 51 		(Key = 2.3.1.2.5.4.0.0.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Present
@@ -619,7 +623,7 @@ Test Case 50 		(Key = 2.3.1.2.5.3.0.0.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 51 		(Key = 2.3.2.2.0.1.1.2.1.1.3.2.0.0.1.)
+Test Case 52 		(Key = 2.3.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present
@@ -637,7 +641,7 @@ Test Case 51 		(Key = 2.3.2.2.0.1.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 52 		(Key = 2.3.2.2.0.1.1.2.2.0.0.0.0.0.1.)
+Test Case 53 		(Key = 2.3.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present
@@ -655,7 +659,7 @@ Test Case 52 		(Key = 2.3.2.2.0.1.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 53 		(Key = 2.3.2.2.0.2.1.2.1.1.3.2.0.0.1.)
+Test Case 54 		(Key = 2.3.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present
@@ -673,7 +677,7 @@ Test Case 53 		(Key = 2.3.2.2.0.2.1.2.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 54 		(Key = 2.3.2.2.0.2.1.2.2.0.0.0.0.0.1.)
+Test Case 55 		(Key = 2.3.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present
@@ -691,7 +695,7 @@ Test Case 54 		(Key = 2.3.2.2.0.2.1.2.2.0.0.0.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 55 		(Key = 2.3.2.2.0.3.0.0.1.1.3.2.0.0.1.)
+Test Case 56 		(Key = 2.3.2.2.0.4.0.0.1.1.3.2.0.0.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present
@@ -709,7 +713,7 @@ Test Case 55 		(Key = 2.3.2.2.0.3.0.0.1.1.3.2.0.0.1.)
    Presence of file corresponding to the name :  Present
 
 
-Test Case 56 		(Key = 2.3.2.2.0.3.0.0.2.0.0.0.1.1.1.)
+Test Case 57 		(Key = 2.3.2.2.0.4.0.0.2.0.0.0.1.1.1.)
    Size                                       :  Not empty
    Number of words                            :  Many
    Presence of -n OPT                         :  Not Present

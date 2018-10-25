@@ -25,7 +25,8 @@ Valid integer input:
 Presence of OPT:
 	-r.	[property rPresent]
 	-l.	[if !rPresent][property lPresent]
-	Not Present.	[if !rPresent || !lPresent]([if rPresent && lPresent][error])
+	-r && -l.	[error]
+	Not Present.	[if !rPresent || !lPresent]
 Presence of -r|-l Integer Input:
 	Present.	[if rPresent || lPresent][property PresentInt]
 	Not Present.	[if rPresent || lPresent][error]
