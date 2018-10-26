@@ -19,6 +19,7 @@ Valid integer input:
 	>0.	[if nPresentInt]
 	<0.	[error]
 	maxint = 25.	[single][if nPresentInt] #edge cases
+	>25.	[error]
 	13.	[if !nPresentInt && nPresent]
 
 # OPT -r || -l
