@@ -106,7 +106,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile1 = createInputFile(FILE3);
         String args[] = {"-n", "26", inputFile1.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("-n integer value greater than 25", errStream.toString().trim());
     }
 
     // Purpose: Testing for -c <string> -n<integer> operation
@@ -140,7 +140,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFil4 = createInputFile(FILE1);
         String args[] = {"-c", "??!!!", inputFil4.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("-c string input cannot contain special characters", errStream.toString().trim());
 
     }
 
@@ -151,7 +151,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile5 = createInputFile(FILE1);
         String args[] = {"-r", inputFile5.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("Integer input missing", errStream.toString().trim());
 
     }
 
@@ -162,7 +162,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile6 = createInputFile(FILE1);
         String args[] = {"-r", "5", "-l", "5", inputFile6.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("-r & -l are mutually exculsive and cannot occur simultaneously", errStream.toString().trim());
 
     }
 
@@ -173,7 +173,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile7 = createInputFile(FILE1);
         String args[] = {"-c", inputFile7.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("String input missing", errStream.toString().trim());
     }
 
     // Purpose: Testing for -n without optional integer value (integer value set to 13)
@@ -246,7 +246,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile13 = createInputFile(FILE2);
         String args[] = {"-r", "0", inputFile13.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("Integer value not accepted. Integer must be greater than or equal to 1", errStream.toString().trim());
     }
 
     // Purpose: Testing for edge case maxint = 25 for -n
@@ -268,7 +268,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile15 = createInputFile(FILE4);
         String args[] = {inputFile15.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c char] <filename>", errStream.toString().trim());
+        assertEquals("File name not present", errStream.toString().trim());
     }
 }
 
