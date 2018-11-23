@@ -109,7 +109,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile1 = createInputFile(FILE3);
         String args[] = {"-n", "26", inputFile1.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for -c <string> -n<integer> operation
@@ -119,7 +119,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile2 = createInputFile(FILE1);
         String args[] = {"-n", "1", "-c", "ab", inputFile2.getPath()};
         Main.main(args);
-        String expected2 = "020304252601";
+        String expected2 = "282904252601";
         String actual2 = getFileContent(inputFile2.getPath());
         assertEquals("The files differ!", expected2, actual2);
     }
@@ -144,7 +144,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         String args[] = {"-c", "?!", inputFil4.getPath()};
         Main.main(args);
         String actual = getFileContent(inputFil4.getPath());
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
 
     }
 
@@ -155,18 +155,18 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile5 = createInputFile(FILE1);
         String args[] = {"-r", inputFile5.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
 
     }
 
     // Purpose: Testing for -r -l mutual exclusivity (cannot exist at the same time)
     // Frame #: 7
-    @Test (expected = AlreadySelectedException.class)
+    @Test
     public void encodeTest6() throws Exception {
         File inputFile6 = createInputFile(FILE1);
         String args[] = {"-r", "5", "-l", "5", inputFile6.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
 
     }
 
@@ -177,7 +177,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile7 = createInputFile(FILE1);
         String args[] = {"-c", inputFile7.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for -n without optional integer value (integer value set to 13)
@@ -187,10 +187,10 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile8 = createInputFile(FILE2);
         String args[] = {"-n", "-r", "1", inputFile8.getPath()};
         Main.main(args);
-        String expected8 = "!2102101712 1522252512,\n" +
-                "22 1426 2002220120 0702 07142418 16066300 140117 16066400 01181107 0618261806071805.\n" +
-                "172217 120208 07142418 1606 6300 25140607 0618261806071805? 22 10140107 0702\n" +
-                "07142418 2 16020805061806 0602 07211407 22 10222525 2005141708140718 14061403";
+        String expected8 = ",3415230425 2809121225\n" +
+                ".35 0113 0715091407 2015 20011105 03196300 011404 03196400 14052420 1905130519200518\n" +
+                "15300904 251521 20011105 0319 6300 12011920 1905130519200518? 35 23011420 20\n" +
+                "!20011105 2 03152118190519 1915 20080120 35 23091212 0718010421012005 27190116";
         String actual8 = getFileContent(inputFile8.getPath());
         assertEquals("The files differ!", expected8, actual8);
     }
@@ -205,7 +205,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         String expected9 = "Howdy BIlly,\n" +
                 "i Am goIng to tAkE cs6300 And cs6400 nExt sEmEstEr.\n" +
                 "DId you tAkE cs 6300 lAst sEmEstEr? i wAnt to\n" +
-                "tAkE 2 coursEs so thAt i wIll grAduAtE asAp!\n";
+                "tAkE 2 coursEs so thAt i wIll grAduAtE asAp!";
         String actual9 = getFileContent(inputFile9.getPath());
         assertEquals("The files differ!", expected9, actual9);
     }
@@ -217,7 +217,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile10 = createInputFile(FILE3);
         String args[] = {"-c", "abcdefghijklmnopqrstuvwxyz", inputFile10.getPath()};
         Main.main(args);
-        String expected10 = "ABC123\n";
+        String expected10 = "ABC123";
         String actual10 = getFileContent(inputFile10.getPath());
         assertEquals("The files differ!", expected10, actual10);
     }
@@ -229,7 +229,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile11 = createInputFile(FILE1);
         String args[] = {"-n", "1", "-c", "ab", "-l", "2", inputFile11.getPath()};
         Main.main(args);
-        String expected11 = "042526010203";
+        String expected11 = "042526012829";
         String actual11 = getFileContent(inputFile11.getPath());
         assertEquals("The files differ!", expected11, actual11);
     }
@@ -241,7 +241,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile12 = createInputFile(FILE1);
         String args[] = {"-n", "-c", "a", "-l", "2", inputFile12.getPath()};
         Main.main(args);
-        String expected12 = "161112131415";
+        String expected12 = "032425262702";
         String actual12 = getFileContent(inputFile12.getPath());
         assertEquals("The files differ!", expected12, actual12);
     }
@@ -253,7 +253,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile13 = createInputFile(FILE2);
         String args[] = {"-r", "0", inputFile13.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for edge case int = 0 for -n, ERROR
@@ -263,16 +263,18 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile14 = createInputFile(FILE3);
         String args[] = {"-n", "-1", inputFile14.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Error case for File not corresponding to filename
     // Frame #: 21
-    @Test (expected = NullPointerException.class)
-    public void encodeTest15() throws ParseException {
-        String args[] = new String[1];
+    @Test
+    public void mainTest15() throws Exception {
+
+        String args[] = {"-n", "File12.txt"};
         Main.main(args);
-        assertEquals("File name not present", errStream.toString().trim());
+
+        assertEquals("File Not Found", errStream.toString().trim());
     }
 
     // Purpose: Testing for No Words in File
@@ -294,7 +296,9 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile17 = createInputFile(FILE1);
         String args[] = {"-n", "0", inputFile17.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        String expected17 = "010203242526";
+        String actual17 = getFileContent((inputFile17.getPath()));
+        assertEquals("Files differ!", expected17, actual17);
     }
 
     // Purpose: Testing for invalid integer input less than 0 -n
@@ -304,10 +308,10 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile18 = createInputFile(FILE2);
         String args[] = {"-n", "10", "-l", "1", inputFile18.getPath()};
         Main.main(args);
-        String expected18 = "25071409 1219222209,\n" +
-                "19 1123 1725192417 0425 04112115 13036300 112414 13036400 24150804 0315231503041502.\n" +
-                "141914 092505 04112115 1303 6300 22110304 0315231503041502? 19 07112404 0425\n" +
-                "04112115 2 13250502031503 0325 04181104 19 07192222 1702111405110415 11031126!18";
+        String expected18 = "25071409 3819222209,44\n" +
+                " 1123 1725192417 0425 04112115 13036300 112414 13036400 24150804 0315231503041502.45\n" +
+                "1914 092505 04112115 1303 6300 22110304 0315231503041502? 45 07112404 042540\n" +
+                "112115 2 13250502031503 0325 04181104 45 07192222 1702111405110415 37031126!04";
         String actual18 = getFileContent(inputFile18.getPath());
         assertEquals("Files differ!", expected18, actual18);
 
@@ -320,7 +324,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile19 = createInputFile(FILE1);
         String args[] = {"-r", "-5", inputFile19.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for -c with string length of 1
@@ -330,7 +334,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile20 = createInputFile(FILE1);
         String args[] = {"-c", "a", inputFile20.getPath()};
         Main.main(args);
-        String expected20 = "Abcxyz\n";
+        String expected20 = "Abcxyz";
         String actual20 = getFileContent(inputFile20.getPath());
         assertEquals("The files differ", expected20, actual20);
     }
@@ -342,7 +346,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile21 = createInputFile(FILE1);
         String args[] = {"-c", "   ", inputFile21.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for alphanumeric characters in string input for -c
@@ -352,7 +356,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile22 = createInputFile(FILE1);
         String args[] = {"-c", "ab123cd", inputFile22.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: Testing for duplicate characters in string input for -c
@@ -362,7 +366,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile23 = createInputFile(FILE1);
         String args[] = {"-c", "aaaaaa", inputFile23.getPath()};
         Main.main(args);
-        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] <filename>", errStream.toString().trim());
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
     // Purpose: One Word File, -n <int> >0, -l <int> >0
@@ -396,7 +400,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile26 = createInputFile(FILE1);
         String args[] = {"-n", "-r", "1", inputFile26.getPath()};
         Main.main(args);
-        String expected26 = "131415161112";
+        String expected26 = "260102032425";
         String actual26 = getFileContent(inputFile26.getPath());
         assertEquals("The files differ!", expected26, actual26);
     }
@@ -408,7 +412,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile27 = createInputFile(FILE1);
         String args[] = {"-n", "-r", "1", "-c", "abc", inputFile27.getPath()};
         Main.main(args);
-        String expected27 = "131415161112";
+        String expected27 = "262728292425";
         String actual27 = getFileContent(inputFile27.getPath());
         assertEquals("The files differ!", expected27, actual27);
     }
@@ -420,7 +424,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile28 = createInputFile(FILE1);
         String args[] = {"-n", "-l", "1", inputFile28.getPath()};
         Main.main(args);
-        String expected28 = "151611121314";
+        String expected28 = "020324252601";
         String actual28 = getFileContent(inputFile28.getPath());
         assertEquals("The files differ!", expected28, actual28);
     }
@@ -432,7 +436,7 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         File inputFile29 = createInputFile(FILE1);
         String args[] = {"-n", "-c", "abc", inputFile29.getPath()};
         Main.main(args);
-        String expected29 = "141516111213";
+        String expected29 = "272829242526";
         String actual29 = getFileContent(inputFile29.getPath());
         assertEquals("The files differ!", expected29, actual29);
     }

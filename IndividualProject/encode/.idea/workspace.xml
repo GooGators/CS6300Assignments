@@ -4,6 +4,10 @@
     <list default="true" id="e5047670-8f46-4977-b1d1-d267301703ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignment7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,43 +19,46 @@
     <session id="-52183750">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4617" />
+          <entry key="class" value="3" />
+          <entry key="java" value="5303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4617" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="5303" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2730">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-4411">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,14 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/encode/edu/gatech/seclass/encode/Main.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
-              <folding>
-                <element signature="e#0#5828#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-503">
+              <caret line="444" selection-start-line="444" selection-end-line="444" />
             </state>
           </provider>
         </entry>
@@ -74,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
+            <state relative-caret-position="196">
+              <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java">
+        <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1241">
-              <caret line="27" column="41" selection-start-line="27" selection-end-line="28" />
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -104,6 +108,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>file5</find>
+      <find>fileText</find>
+      <find>file12</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,8 +119,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java" />
-        <option value="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java" />
         <option value="$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java" />
+        <option value="$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java" />
       </list>
     </option>
   </component>
@@ -124,7 +130,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1890" />
@@ -136,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,6 +231,17 @@
             </path>
             <path>
               <item name="encode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="encode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="encode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="encode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="encode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="encode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -235,7 +253,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +261,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541731148110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542874932544" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -269,23 +286,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.Main" />
+  <component name="RunManager" selected="JUnit.MainTestSuite">
+    <configuration name="MainTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="encode" />
-      <option name="PROGRAM_PARAMETERS" value="-n 1 test.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.gatech.seclass.encode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MainTestSuite" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.mainTest19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="encode" />
       <extension name="coverage">
         <pattern>
@@ -295,41 +311,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
       <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MainTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyMainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="encode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.gatech.seclass.encode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
-      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MyMainTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyMainTest.encodeTest18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="encode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.gatech.seclass.encode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
-      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MyMainTest" />
-      <option name="METHOD_NAME" value="encodeTest18" />
+      <option name="METHOD_NAME" value="mainTest19" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMainTest.encodeTest8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.mainTest23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.encode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MainTest" />
+      <option name="METHOD_NAME" value="mainTest23" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMainTest.encodeTest15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="encode" />
       <extension name="coverage">
         <pattern>
@@ -339,26 +343,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
       <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MyMainTest" />
-      <option name="METHOD_NAME" value="encodeTest8" />
+      <option name="METHOD_NAME" value="encodeTest15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMainTest.mainTest15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gatech.seclass.encode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gatech.seclass.encode" />
+      <option name="MAIN_CLASS_NAME" value="edu.gatech.seclass.encode.MyMainTest" />
+      <option name="METHOD_NAME" value="mainTest15" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MyMainTest.encodeTest8" />
-      <item itemvalue="JUnit.MyMainTest" />
-      <item itemvalue="JUnit.MyMainTest.encodeTest18" />
-      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MyMainTest.encodeTest15" />
+      <item itemvalue="JUnit.MainTestSuite" />
+      <item itemvalue="JUnit.MainTest.mainTest23" />
+      <item itemvalue="JUnit.MainTest.mainTest19" />
+      <item itemvalue="JUnit.MyMainTest.mainTest15" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MyMainTest" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MyMainTest.encodeTest8" />
-        <item itemvalue="JUnit.MyMainTest.encodeTest18" />
+        <item itemvalue="JUnit.MainTestSuite" />
+        <item itemvalue="JUnit.MyMainTest.mainTest15" />
+        <item itemvalue="JUnit.MainTest.mainTest19" />
+        <item itemvalue="JUnit.MainTest.mainTest23" />
+        <item itemvalue="JUnit.MyMainTest.encodeTest15" />
       </list>
     </recent_temporary>
   </component>
@@ -372,76 +392,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541642851685</updated>
-      <workItem from="1541642856674" duration="37712000" />
+      <workItem from="1541642856674" duration="48509000" />
+      <workItem from="1542698937938" duration="5920000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyMainTest_encodeTest6 - 2018.11.08 at 23h 37m 46s.xml">
-      <configuration name="MyMainTest.encodeTest6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest14 - 2018.11.08 at 23h 42m 04s.xml">
-      <configuration name="MyMainTest.encodeTest14" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest18 - 2018.11.08 at 23h 45m 23s.xml">
-      <configuration name="MyMainTest.encodeTest18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest18 - 2018.11.08 at 23h 45m 50s.xml">
-      <configuration name="MyMainTest.encodeTest18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest8 - 2018.11.08 at 23h 47m 13s.xml">
-      <configuration name="MyMainTest.encodeTest8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest8 - 2018.11.08 at 23h 47m 31s.xml">
-      <configuration name="MyMainTest.encodeTest8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest_encodeTest8 - 2018.11.08 at 23h 48m 01s.xml">
-      <configuration name="MyMainTest.encodeTest8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest - 2018.11.08 at 23h 48m 26s.xml">
+    <history-entry file="MyMainTest - 2018.11.20 at 15h 59m 49s.xml">
       <configuration name="MyMainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2018.11.08 at 23h 48m 35s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyMainTest - 2018.11.09 at 07h 18m 18s.xml">
+    <history-entry file="MyMainTest - 2018.11.20 at 16h 01m 01s.xml">
       <configuration name="MyMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyMainTest_encodeTest15 - 2018.11.20 at 16h 01m 49s.xml">
+      <configuration name="MyMainTest.encodeTest15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyMainTest_encodeTest15 - 2018.11.20 at 16h 02m 00s.xml">
+      <configuration name="MyMainTest.encodeTest15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyMainTest_encodeTest15 - 2018.11.20 at 16h 02m 25s.xml">
+      <configuration name="MyMainTest.encodeTest15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTestSuite - 2018.11.20 at 16h 02m 37s.xml">
+      <configuration name="MainTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_mainTest23 - 2018.11.20 at 16h 03m 34s.xml">
+      <configuration name="MainTest.mainTest23" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_mainTest19 - 2018.11.20 at 16h 04m 17s.xml">
+      <configuration name="MainTest.mainTest19" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyMainTest_mainTest15 - 2018.11.20 at 16h 06m 56s.xml">
+      <configuration name="MyMainTest.mainTest15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTestSuite - 2018.11.20 at 16h 07m 07s.xml">
+      <configuration name="MainTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37712000" />
+    <option name="totallyTimeSpent" value="54429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291815" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.3291815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.13167259" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,6 +473,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/encode/edu/gatech/seclass/encode/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -460,41 +492,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MyMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
+        <state relative-caret-position="196">
+          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/encode/edu/gatech/seclass/encode/Main.class">
+    <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4411">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <element signature="e#0#5828#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/gatech/seclass/encode/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="27" column="41" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/gatech/seclass/encode/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2730">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-503">
+          <caret line="444" selection-start-line="444" selection-end-line="444" />
         </state>
       </provider>
     </entry>
