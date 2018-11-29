@@ -1,0 +1,99 @@
+JUnit version 4.12
+....E.E.E...E............E.E.E.E.E.E...E........
+Time: 0.596
+There were 11 failures:
+1) encodeTest13(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #1. 
+Arguments used: [-r, 0, C:\Users\Ethan\AppData\Local\Temp\junit827375182869664999\junit1374630289335632976.tmp]
+File: Howdy Billy,
+I am going to take cs6300 and cs6400 next semester.
+Did you take cs 6300 last semester? I want to
+take 2 courses so that I will graduate Asap! 
+Encode result: java.lang.IndexOutOfBoundsException
+2) encodeTest14(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, -1, C:\Users\Ethan\AppData\Local\Temp\junit7460169480019664783\junit1543373240955791046.tmp]
+File: abc123 
+Encode result: 000102123
+3) encodeTest16(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #7. 
+Arguments used: [-n, C:\Users\Ethan\AppData\Local\Temp\junit4719790313583945430\junit6678019628553584091.tmp]
+File:  
+Encode result: java.lang.NumberFormatException
+4) encodeTest19(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #1. 
+Arguments used: [-r, -5, C:\Users\Ethan\AppData\Local\Temp\junit282942473417057945\junit4702354449308748699.tmp]
+File: abcxyz 
+Encode result: java.lang.IndexOutOfBoundsException
+5) encodeTest31(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #3. 
+Arguments used: [-r, 1, -r, 1, C:\Users\Ethan\AppData\Local\Temp\junit6465246017093936247\junit3192039867693246638.tmp]
+File: abcxyz 
+Encode result: 141516111213
+6) encodeTest32(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #5. 
+Arguments used: [-d, abc, C:\Users\Ethan\AppData\Local\Temp\junit5606153105213399479\junit3826319531795233959.tmp]
+File: abcxyz 
+Encode result: java.lang.NumberFormatException: For input string: "abc"
+7) encodeTest33(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #4. 
+Arguments used: [-d, 1, C:\Users\Ethan\AppData\Local\Temp\junit6891408370743308200\junit3840684551762252858.tmp]
+File:  
+Encode result: java.lang.IndexOutOfBoundsException
+8) encodeTest34(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #6. 
+Arguments used: [-r, 1, 2, C:\Users\Ethan\AppData\Local\Temp\junit390820820519309013\junit4744209213567234469.tmp]
+File: abcxyz 
+Encode result: 260102032425
+9) encodeTest35(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #9. 
+Arguments used: [-c, Aa, C:\Users\Ethan\AppData\Local\Temp\junit9050909700944974777\junit6921382206158483211.tmp]
+File: abcxyz 
+Encode result: abcxyz
+10) encodeTest36(edu.gatech.seclass.encode.MyMainTest)
+org.junit.ComparisonFailure: expected:<[Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.gatech.seclass.encode.MyMainTest.encodeTest36(MyMainTest.java:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+11) encodeTest1(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, 26, C:\Users\Ethan\AppData\Local\Temp\junit4835189089313034307\junit3436751639789961461.tmp]
+File: abc123 
+Encode result: 010203123
+
+FAILURES!!!
+Tests run: 37,  Failures: 11
+
