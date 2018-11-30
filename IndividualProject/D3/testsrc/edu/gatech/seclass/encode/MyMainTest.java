@@ -518,4 +518,24 @@ Place all  of your tests in this class, optionally using MainTest.java as an exa
         assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
     }
 
+    // Purpose: Testing -c tag with repeating string (cap/non-cap)
+    // New Failure Type: BUG#2: encode fails when -c operation is run with an empty string input.
+    @Test
+    public void encodeTest36() throws Exception {
+        File inputFile36 = createInputFile(FILE1);
+        String args[] = {"-c", "", inputFile36.getPath()};
+        Main.main(args);
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
+    }
+
+    // Purpose: Testing -r on files with repeating \n and \r
+    // New Failure Type: BUG#10: encode failes when -r operation is run on files with multiple return lines
+    @Test
+    public void encodeTest37() throws Exception {
+        File inputFile37 = createInputFile("Hi my name is Ethan\n\n + I am a boy\r\r");
+        String args[] = {"-r", "10", inputFile37.getPath()};
+        Main.main(args);
+        assertEquals("Usage: encode [-n [int]] [-r int | -l int] [-c string] [-d int] <filename>", errStream.toString().trim());
+    }
+
 }
